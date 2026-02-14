@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DWECRA7 - Tarea Desarrollo Cliente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tarea 7: Peticiones AJAX</h1>
+
+        <!-- EJERCICIO 1 -->
+        <section id="ejercicio1">
+            <h2>Ejercicio 1: Usuarios</h2>
+            <div class="buscador">
+                <label for="buscadorNombre">Buscar por nombre: </label>
+                <input type="text" id="buscadorNombre" placeholder="Escribe para filtrar...">
+            </div>
+            <div id="tabla-usuarios-container">
+                <p>Cargando usuarios...</p>
+            </div>
+        </section>
+
+        <!-- EJERCICIO 2 -->
+        <section id="ejercicio2">
+            <h2>Ejercicio 2: Tienda de Bicicletas</h2>
+            <div class="filtro">
+                <label for="categoria">Filtrar por categoría: </label>
+                <select name="categoria" id="categoria">
+                    <option value="todas" selected>Todas</option>
+                    <option value="Carretera">Carretera</option>
+                    <option value="Gravel">Gravel</option>
+                    <option value="MTB">MTB</option>
+                </select>
+            </div>
+            <div id="bicicletas-container">
+                <p>Cargando bicicletas...</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
